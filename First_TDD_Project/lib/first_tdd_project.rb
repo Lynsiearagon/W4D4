@@ -25,3 +25,7 @@ def two_sum(array)
     
     ordered
 end
+
+def my_transpose(array)
+    # array.transpose
+end
