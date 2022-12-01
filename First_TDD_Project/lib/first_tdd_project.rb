@@ -1,3 +1,15 @@
+class Array
+    def my_uniq
+        uniqs = []
+        self.each do |ele|
+            uniqs << ele if !uniqs.include?(ele)
+        end 
+
+        uniqs
+        # self.uniq
+    end 
+end 
+
 def two_sum(array)
     ordered = []
     array.each_with_index do |ele1, i1|
